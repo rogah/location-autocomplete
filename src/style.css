@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+#address-label {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+#address {
+  width: 80%;
+  font-size: 40px;
+  font-weight: 100;
+  border: none;
+  border-bottom: 3px solid #eeeeee;
+  text-align: left;
+}
+#address:focus {
+  outline: none;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 100;
+  color: grey;
+}
