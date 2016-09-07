@@ -1,3 +1,6 @@
+// This example displays an address form, using the autocomplete feature
+// of the Google Places API to help users fill in the information.
+// https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
 
 var autocomplete, fullAddress = {};
 
